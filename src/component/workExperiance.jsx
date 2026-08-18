@@ -26,7 +26,7 @@ const experiences = [
 
 export default function WorkExperience() {
   return (
-    <div className="mx-auto  px-4">
+    <div className="mx-auto">
       {/* Section Heading */}
       <div className="mb-8 flex items-baseline gap-4">
         <h2

@@ -57,7 +57,7 @@ const skillCategories: SkillCategory[] = [
 export default function Skills() {
   return (
     <section className="w-full py-8 text-neutral-100">
-      <div className="mx-auto  px-4 sm:px-0">
+      <div className="mx-auto sm:px-0">
         {/* Section Heading & Subheading */}
         <div className="mb-2 flex items-baseline gap-3">
           <h2

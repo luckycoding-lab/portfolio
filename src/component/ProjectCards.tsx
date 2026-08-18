@@ -6,7 +6,7 @@ import { TbBrandGithub } from "react-icons/tb";
 export default function ProjectCards() {
   return (
     <section className="py-8 text-neutral-100">
-      <div className="mx-auto  px-4 sm:px-0">
+      <div className="mx-auto sm:px-0">
         {/* Section Heading */}
         <div className="mb-8 flex flex-wrap items-baseline gap-2 sm:gap-4">
           <h2
