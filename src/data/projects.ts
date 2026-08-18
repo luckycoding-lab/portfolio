@@ -1,3 +1,6 @@
+import clawstepImg from "../../public/clawstep.png";
+import sarthakStudioImg from "../../public/sarthakstudio.png";
+
 export interface Project {
   id: string | number;
   title: string;
@@ -21,7 +24,7 @@ export const projects: Project[] = [
     title: "Claw Steps",
     description:
       "Clawsteps is a professional, responsive website designed for a local dog walking service.",
-    image: "/public/clawstep.png",
+    image: clawstepImg,
     liveUrl: "https://clawsteps.com/",
     githubUrl: "https://github.com/luckycoding-lab/clawsteps",
     technologies: ["HTML", "CSS", "JavaScript", "SEO"],
@@ -38,25 +41,14 @@ export const projects: Project[] = [
     title: "Studio Sarthak",
     description:
       "This is a modern, fully responsive frontend for Studio Sarthak, a wedding choreography service.",
-    badge: {
-      text: "React Js",
-    },
-      image:
-      "/public/sarthakstudio.png",
-    image: "/public/sarthakstudio.png",
+    image: sarthakStudioImg,
     liveUrl: "https://sarthakstudio.vercel.app/",
     githubUrl: "https://github.com/luckycoding-lab/sarthakstudio",
     technologies: ["React", "Vite", "Tailwind CSS"],
     year: 2024,
-    badge: { text: "In Development" },
+    badge: { 
+      icon: "▲", 
+      text: "In Development" 
+    },
   },
-  // ➕ ADD YOUR NEW PROJECTS HERE:
-  // {
-  //   id: 3,
-  //   title: 'My Next App',
-  //   description: 'Full-stack MERN application built for high performance.',
-  //   image: '/projects/my-app.png',
-  //   liveUrl: 'https://myapp.vercel.app',
-  //   githubUrl: 'https://github.com/username/myapp',
-  // },
 ];

@@ -59,7 +59,7 @@ export default function WorkExperience() {
                 <div>
                   <div className="flex flex-col items-start gap-2 sm:flex-row">
                     <h3 className="text-sm font-semibold tracking-tight text-white sm:text-base">
-                      {exp.company}
+                      {exp.company} &nbsp;
                       {exp.badge && (
                         <span className="shrink-0 whitespace-nowrap rounded-full border border-neutral-700/50 bg-neutral-800/80 px-1.5 py-0.5 text-[9px] font-medium text-neutral-400 sm:px-2 sm:text-[10px]">
                           {exp.badge}
@@ -83,7 +83,7 @@ export default function WorkExperience() {
             {/* Bullet Description */}
             <div className="ml-1 flex items-start gap-3 pl-1">
               <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-neutral-500" />
-              <p className="text-xs leading-relaxed text-neutral-400">
+              <p className="font-mono text-xs leading-relaxed text-neutral-400">
                 {exp.description}
               </p>
             </div>
