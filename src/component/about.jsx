@@ -71,7 +71,7 @@ export default function About() {
 
                     {/* 2. Download CV Button */}
                     <a
-                        href="/public/Lucky Resume 2026.pdf"
+                        href="/Lucky Resume 2026.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="custom-btn"
