@@ -9,7 +9,12 @@ body {
     --hover-color: #8b5cf6;
     --border-color: #231f36;
 }
-::selection, ::-moz-selection {
+::selection {
+  background-color: var(--hover-color);
+  color: white;
+}
+
+::-moz-selection {
   background-color: var(--hover-color);
   color: white;
 }

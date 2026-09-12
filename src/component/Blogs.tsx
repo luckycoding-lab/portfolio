@@ -28,8 +28,8 @@ const blogs: Blog[] = [
 
 export default function BlogsSection() {
   return (
-    <section className="py-8 text-neutral-100">
-      <div className="mx-auto  px-4">
+    <section className="text-neutral-100">
+      <div className="mx-auto">
         {/* Section Header */}
         <p className="mb-4 font-mono text-sm text-neutral-400">
           Here are some <span className="font-semibold text-white">blogs</span> I've written

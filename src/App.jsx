@@ -1,7 +1,8 @@
 import About from "./component/about";
 // import BlogsSection from "./component/Blogs";
 import Footer from "./component/Footer";
- import ProjectCards from "./component/ProjectCards";
+// import Labs from "./component/Labs";
+import ProjectCards from "./component/ProjectCards";
 import Seprator from "./component/seprator";
 import Skills from "./component/skills";
 import SocialMedia from "./component/socialMedia";
@@ -26,8 +27,9 @@ function App() {
         {/* <Seprator /> */}
         <ProjectCards />
         {/* <Seprator /> */}
-        {/* <BlogsSection /> */}
+        {/* <BlogsSection />
         <Seprator />
+        <Labs /> */}
         <Footer />
       </div>
     </div>
