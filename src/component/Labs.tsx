@@ -5,7 +5,7 @@ import { labsData } from "../data/labsData";
 export default function Labs() {
   return (
     <section className="w-full text-neutral-100">
-      <div className="mx-auto px-4 sm:px-0">
+      <div className="mx-auto sm:px-0">
         {/* Section Header */}
         <div className="mb-2 flex flex-wrap items-baseline gap-2 sm:gap-4">
           <h2
