@@ -7,8 +7,6 @@ import Skills from "./component/skills";
 import SocialMedia from "./component/socialMedia";
 import LiveClock from "./component/timeLocation";
 import WorkExperiance from "./component/workExperiance";
-// import BlogsSection from "./component/Blogs";
-// import FreeLanceProject from './component/FreeLanceProject'
 
 function App() {
   return (
@@ -26,9 +24,7 @@ function App() {
         <ProjectCards />
         <Seprator />
         <Labs />
-        {/* <FreeLanceProject /> */}
         <Seprator />
-        {/* <BlogsSection /> */}
         <Footer />
       </div>
     </div>

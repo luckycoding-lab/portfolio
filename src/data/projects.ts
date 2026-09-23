@@ -21,20 +21,27 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Claw Steps",
+    title: "Next.js Cloud Notebook",
     description:
-      "Clawsteps is a professional, responsive website designed for a local dog walking service.",
-    image: clawstepImg,
-    liveUrl: "https://clawsteps.com/",
-    githubUrl: "https://github.com/luckycoding-lab/clawsteps",
-    technologies: ["HTML", "CSS", "JavaScript", "SEO"],
-    year: 2023,
-    stars: "5k+ Impression",
+      "Full-stack cloud notebook featuring Appwrite BaaS, OAuth authentication, automated Telegram Bot alerts, and edge deployment on Vercel.",
+    image: clawstepImg, // import your new notebook screenshot
+    liveUrl: "https://clawsteps.com",
+    githubUrl: "https://github.com/luckycoding-lab/clawsteps_nextjs",
+    technologies: [
+      "Next.js",
+      "React",
+      "Appwrite",
+      "OAuth",
+      "Telegram Bot",
+      "TailwindCSS",
+      "Vercel",
+    ],
+    year: 2026,
+    stars: "Vercel Edge",
     badge: {
       icon: "▲",
-      text: "SEO Ready",
+      text: "Production Ready",
     },
-    // rankRibbon: '#2 Peerlist',
   },
   {
     id: 2,
@@ -46,9 +53,9 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/luckycoding-lab/sarthakstudio",
     technologies: ["React", "Vite", "Tailwind CSS"],
     year: 2024,
-    badge: { 
-      icon: "▲", 
-      text: "In Development" 
+    badge: {
+      icon: "▲",
+      text: "In Development",
     },
   },
 ];

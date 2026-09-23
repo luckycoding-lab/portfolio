@@ -3,15 +3,15 @@ import clawStepsLogo from '../assets/Logo.png';
 
 const experiences = [
   {
-    company: 'Claw Steps',
-    badge: 'Web Developer',
-    role: 'Web Developer & UI/UX Designer',
-    date: 'Aug 2025 - Present',
-    location: 'New Delhi, India',
-    logo: clawStepsLogo,
-    description:
-      'Designed and developed the Claw Steps website with a user-friendly, mobile-responsive layout focused on seamless booking, SEO optimization, and brand consistency.',
-  },
+  company: 'Claw Steps',
+  badge: 'Production',
+  role: 'Frontend Engineer & UI/UX Designer',
+  date: 'Aug 2025 - Present',
+  location: 'New Delhi, India',
+  logo: clawStepsLogo,
+  description:
+    'Architected and deployed a mobile-first commercial platform with semantic HTML5, modern CSS architectures, and Core Web Vitals optimization, driving 5k+ search impressions and high conversion rates.',
+},
   {
     company: 'Deepali Designs Pvt. Ltd.',
     badge: 'Intern',
