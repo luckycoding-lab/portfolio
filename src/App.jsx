@@ -1,6 +1,6 @@
 import About from "./component/about";
 import Footer from "./component/Footer";
-import GithubContributions from "./component/GithubContributions";
+// import GithubContributions from "./component/GithubContributions";
 import Labs from "./component/Labs";
 import ProjectCards from "./component/ProjectCards";
 import Seprator from "./component/seprator";
@@ -26,8 +26,8 @@ function App() {
         <Seprator />
         <Labs />
         <Seprator />
-        <GithubContributions />
-        <Seprator />
+        {/* <GithubContributions /> */}
+        {/* <Seprator /> */}
         <Footer />
       </div>
     </div>

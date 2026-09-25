@@ -13,8 +13,8 @@ export default function GithubContributions() {
     };
 
     return (
-        <section className="w-full py-8 text-neutral-100">
-            <div className="mx-auto px-4 sm:px-0">
+        <section className="w-full text-neutral-100">
+            <div className="mx-auto sm:px-0">
 
                 {/* Header */}
                 <div className="mb-2 flex items-baseline gap-3">

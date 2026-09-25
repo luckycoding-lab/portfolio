@@ -71,9 +71,8 @@ export default function About() {
 
                     {/* 2. Download CV Button */}
                     <a
-                        href="/Lucky Resume 2026.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="/Lucky%20Resume%202026.pdf"
+                        download="Lucky_Resume_2026.pdf"
                         className="custom-btn"
                     >
                         <FaCloudDownloadAlt className="h-3.5 w-3.5 text-neutral-400" />
